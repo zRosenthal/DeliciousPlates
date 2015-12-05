@@ -5,8 +5,8 @@
         <img id="img-holder" src="{{asset('/img/0.jpg')}}">
         <br>
         <div class="buttons">
-            <button onclick="iterImg(-1);return false;">Previous</button>
-            <button onclick="iterImg(1); return false;">Next</button>
+            <button id="previous" onclick="iterImg(-1);return false;" disabled>Previous</button>
+            <button id="next" onclick="iterImg(1); return false;">Next</button>
         </div>
     </section>
 
