@@ -54,3 +54,29 @@ nav ul li a:hover {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.sub-content {
+    padding-top:20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.sub-content h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.img-slider {
+    width: 60%;
+    margin:0 auto;
+}
+.img-slider img {
+    display: block;
+    margin:0 auto;
+    height: 500px;
+    width: 500px;
+}
+.buttons {
+    margin: 0 auto;
+    width: 150px;
+}
+.buttons button {
+    width: 70px;
+}

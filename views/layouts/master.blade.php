@@ -12,15 +12,18 @@
     </header>
     <nav>
         <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="recipe.html">Featured Recipe</a></li>
-            <li><a href="gallery.html">Photo Gallery</a></li>
-            <li><a href="#">Dicks</a></li>
+            <li><a href="/index" class="active">Home</a></li>
+            <li><a href="/recipe">Featured Recipe</a></li>
+            <li><a href="/gallery">Photo Gallery</a></li>
+            <li><a href="/Links">Links</a></li>
         </ul>
     </nav>
     <div class="main-content">
+        <div class="sub-content">
     @yield('content')
+        </div>
     </div>
 </div>
+@yield('js')
 </body>
 </html>
