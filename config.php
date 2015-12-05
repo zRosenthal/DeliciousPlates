@@ -1,3 +1,3 @@
 <?php
 
-const BASE_URL = 'http://127.0.0.1:8080';
+const BASE_URL = 'http://104.131.225.36';
