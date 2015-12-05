@@ -11,7 +11,7 @@ $paths = array(__DIR__ . '/views');
 $renderer = new BladeRenderer($paths, array('cache_path' => __DIR__ . '/cache'));
 
 //Load page based on uri
-$path = $_SERVER[REQUEST_URI];
+$path = $_SERVER['REQUEST_URI'];
 if($path == '/') {
     $path = '/index';
 }
