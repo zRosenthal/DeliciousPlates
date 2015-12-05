@@ -1,0 +1,56 @@
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #0e6d09;
+    background: -moz-linear-gradient(top, #008a00 13%, #52b152 53%, #83c783 74%, #b4ddb4 100%) no-repeat fixed center;
+    background: -webkit-linear-gradient(top, #008a00 13%,#52b152 53%,#83c783 74%,#b4ddb4 100%) no-repeat fixed center;
+    background: linear-gradient(to bottom, #008a00 13%,#52b152 53%,#83c783 74%,#b4ddb4 100%) no-repeat fixed center;
+}
+nav {
+    background: rgba(226,226,226,1);
+    background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,0.97) 37%, rgba(219,219,219,0.95) 68%, rgba(254,254,254,0.92) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(37%, rgba(219,219,219,0.97)), color-stop(68%, rgba(219,219,219,0.95)), color-stop(100%, rgba(254,254,254,0.92)));
+    background: -webkit-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,0.97) 37%, rgba(219,219,219,0.95) 68%, rgba(254,254,254,0.92) 100%);
+    background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(219,219,219,0.97) 37%, rgba(219,219,219,0.95) 68%, rgba(254,254,254,0.92) 100%);
+    font-size: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav ul {
+    width: 50%;
+    display: inline;
+    margin: 0 auto;
+}
+nav ul li {
+    display: inline;
+    padding-right: 15px;
+    margin: 0 0 0 0;
+    border-right: 2px groove grey;
+}
+nav ul li a {
+    text-decoration: none;
+    color: darkgreen;
+}
+nav ul li a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+.main {
+    width: 75%;
+    height: 100%;
+    margin:0 auto;
+}
+.main-content {
+    background: rgba(215, 225, 216,.4);
+    height: 100%;
+}
+.main-header {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+}
+.main-header h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
