@@ -52,3 +52,4 @@ class Page
 http://localhost			=> pages/index.php
 http://localhost/example	=> pages/example.php
 ```
+w

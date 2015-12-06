@@ -20,5 +20,3 @@ require __DIR__ . '/pages' . $path . '.php';
 //Render page
 $page = new Page();
 echo $page->show($renderer);
-
-//work
