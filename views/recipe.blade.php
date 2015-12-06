@@ -1,3 +1,4 @@
-<h1>Example</h1>
-kgh'
-hkljl
+@extends('layouts.master')
+@section('content')
+    
+@endsection
