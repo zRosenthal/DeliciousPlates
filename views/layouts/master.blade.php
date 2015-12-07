@@ -15,7 +15,7 @@
             <li><a href="/index" class="active">Home</a></li>
             <li><a href="/recipe">Featured Recipe</a></li>
             <li><a href="/gallery">Photo Gallery</a></li>
-            <li><a href="/Links">Links</a></li>
+            <li style="border: none;"><a href="/Links">Links</a></li>
         </ul>
     </nav>
     <div class="main-content">

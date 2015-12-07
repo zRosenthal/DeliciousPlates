@@ -16,9 +16,6 @@ if($path == '/') {
     $path = '/index';
 }
 
-$f = fopen('debug.txt', 'w');
-fwrite($f,__DIR__ . '/pages' . $path . '.php');
-
 require __DIR__ . '/pages' . $path . '.php';
 
 //Render page
