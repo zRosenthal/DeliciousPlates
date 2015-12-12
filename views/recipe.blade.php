@@ -6,7 +6,7 @@
         </section>
         <section class="recipe-img">
 
-            <img src="{{asset('/img/0.jpg')}}">
+            <img src="{{asset('/img/13.jpg')}}">
         </section>
 
         <section class="ingredients">

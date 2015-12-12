@@ -136,6 +136,63 @@ h3 {
 .recipe section{
     width: 45%;
 }
+.border .recipe-img img {
+    width: 400px;
+    height:auto;
+    margin-right: 15px;
+    margin-bottom:15px;
+}
+
+.border {
+    width: 100%;
+    overflow: hidden;
+    /*background-color: rgba(35, 80, 62, 0.3);
+    */
+    border: 2px solid rgb(35, 80, 62);
+    border-radius: 15px;
+}
+.links {
+    text-decoration: none;
+    font-size: 25px;
+    width: 200px;
+    float: left;
+}
+
+.bio-list {
+    text-decoration: none;
+    font-size: 25px;
+    float: left;
+    width: 60%;
+}
+
+.link-img {
+    width: 400px;
+    height: auto;
+}
+
+.links, .bio-list li {
+    color: black;
+    padding-bottom: 5px;
+    list-style-type: none;
+}
+.links a {
+    text-decoration:none;
+}
+.links a:visited {
+    color: black;
+}
+.links a:hover {
+    font-weight: 900;
+}
+
+.bio-img {
+    height: auto;
+    padding-right: 20px;
+    padding-top: 20px;
+    float: right;
+    width:22g%;
+
+}
 
 @media (max-width: 960px) {
     .main-header {
