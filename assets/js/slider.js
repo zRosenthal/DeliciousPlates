@@ -8,7 +8,7 @@ var data = {
 };
 
 function setImgSrc() {
-    document.getElementById('img-holder').src = "http://127.0.0.1:8080/assets/img/" + data.slide + ".jpg";
+    document.getElementById('img-holder').src = "http://104.131.225.36/assets/img/" + data.slide + ".jpg";
 }
 
 /**
