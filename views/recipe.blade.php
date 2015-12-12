@@ -10,9 +10,9 @@
         </section>
 
         <section class="ingredients">
-            <h3>Ingedients</h3>
+            <h3>Ingredients</h3>
             <ul>
-                <li>2 large onions
+                <li>2 large pinonions
                 </li>
                 <li>1 red pepper
                 </li>
